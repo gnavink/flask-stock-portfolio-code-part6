@@ -49,7 +49,7 @@ def generate_password_reset_email(user_email):
 @users_blueprint.route('/about')
 def about():
     flash('Thanks for learning about this site!', 'info')
-    return render_template('users/about.html', company_name='TestDriven.io')
+    return render_template('users/about.html', company_name='LearnFlask.io')
 
 
 @users_blueprint.route('/admin')
